@@ -1,12 +1,12 @@
 # Si-R G120
 
-- DNSフォワーダを設定する。
+- DNSフォワーダを設定。
   - remote0(通信事業者)のDNSにフォワードする。
 ```
 proxydns domain 0 any * any to 0
 ```
 
-- NAPT
+- NAPTの設定
   - グローバルIPアドレスを5分間だけ与える。
 ```
 remote 0 ip nat mode multi any 1 5m
