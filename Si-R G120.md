@@ -10,7 +10,7 @@ proxydns domain 0 any * any to 0
 
 
 ```
-remote ip nat mode multi nay 1 5m
+remote 0 ip nat mode multi nay 1 5m
 ```
 
 
