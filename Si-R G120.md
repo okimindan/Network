@@ -5,6 +5,7 @@
 - 本社（IPsec用IPアドレス：192.168.101.1(グローバルIP) 実IP:192.168.101.1）
 ```
 remote 0 ip route 0 192.168.101.2/32 1 1
+remote 1 ap 0 ike mode main
 remote 1 ap 0 tunnel local 192.168.101.1
 remote 1 ap 0 tunnel remote 192.168.101.2
 remote 1 ip route 0 172.16.2.0/24 1 1
