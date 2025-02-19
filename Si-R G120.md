@@ -21,7 +21,7 @@ remote 1 ip route 0 default 1 1
 ```
 ## IPsec間の通信（aggrassiveモード）
 - 本社
-- ```
+```
 remote 3 ap 0 tunnel local 192.168.101.1
 remote 3 ap 0 ike mode aggressive
 ```
