@@ -54,6 +54,7 @@ remote 0 ip route 0 default 1 0
 　→　デフォルトルートで本社に
 
 - 本社コマンド(拠点が複数ある)
+ Forti1gate等にデフォルトルートを使用している際
 ```
 remote 0 ip address local 122.18.xxx.xxx
 remote 0 ip route 0 122.18.xxx.xxx
