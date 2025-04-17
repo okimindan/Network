@@ -53,6 +53,13 @@ remote 0 ip route 0 default 1 0
 ```
 　→　デフォルトルートで本社に
 
+- 本社コマンド(拠点が複数ある)
+、、、
+remote 0 ip address local 122.18.xxx.xxx
+remote 0 ip route 0 122.18.xxx.xxx
+remote 0 ip route 1 122.18.xxx.xxx
+remote 0 ip route 2 122.18.xxx.xxx
+、、、
 
 
 - DNSフォワーダを設定。
